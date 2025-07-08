@@ -4,111 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        table {
-            border-collapse: collapse;
-            width: 700px;
-        }
-
-        td,
-        th {
-            border: black solid 1px;
-            padding: 3px 10px;
-            text-align: center;
-
-        }
-
-        .importante {
-            background-color: rgb(107, 107, 107);
-            font-weight: bold;
-            color: white;
-        }
-        col.cDisciplina {
-            width: 200px;
-            background-color: aqua;
-        }
-        div{
-            overflow-x: auto;
-        }
-        
-    </style>
-
+    <title>Milagros Carvajal</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div>
-        <table>
-            <colgroup>
-                <col class="carea">
-                <col class="cDisciplina">
-                <col class="cNota1">
-                <col class="cNota2">
-                <col class="cmedia">
-            </colgroup>
-            <thead>
-                <tr class="importante">
-                    <th rowspan="2" scope="col">Area</th>
-                    <th rowspan="2" scope="col">Disciplina</th>
-                    <th colspan="2" scope="colgroup">Notas</th>
-                    <th rowspan="2" scope="col">Media</th>
-                </tr>
-                <tr class="importante">
-                    <th scope="col">Nota 1</th>
-                    <th scope="col">Nota 2</th>
-                </tr>
-        
-            </thead>
-            <tbody>
-                <tr>
-                    <th rowspan="4" scope="rowgroup">Exatas</th>
-                    <td>Matematica</td>
-                    <td>8.0</td>
-                    <td>7.5</td>
-                    <td>7.75</td>
-                </tr>
-                <tr>
-                    <td>Fisica</td>
-                    <td>6.5</td>
-                    <td>7.0</td>
-                    <td>6.75</td>
-                </tr>
-                <tr>
-                    <td>Quimica</td>
-                    <td>7.0</td>
-                    <td>8.0</td>
-                    <td>7.5</td>
-                </tr>
-                <tr>
-                    <td>Biologia</td>
-                    <td>8.5</td>
-                    <td>9.0</td>
-                    <td>8.75</td>
-                </tr>
-                <tr class="importante">
-                    <td colspan="4" scope="row">Media de Exatas</td>
-                    <td>0.0</td>
-                </tr>
-                <tr>
-                    <th rowspan="2" scope="rowgroup">Humanas</th>
-                    <td>Historia</td>
-                    <td>7.0</td>
-                    <td>6.5</td>
-                    <td>6.75</td>
-                </tr>
-                <tr>
-                    <td>Geografia</td>
-                    <td>8.0</td>
-                    <td>7.5</td>
-                    <td>7.75</td>
-                </tr>
-                <tr class="importante">
-                    <td colspan="4" scope="row">Media de Humanas</td>
-                    <td>0.0</td>
-                </tr>
-            </tbody>
-        </table>
-    </div>
+    <main>
+        <section id="telefone">
+            <iframe src="home.html" frameborder="0" name="tela" id="tela">
+                Seu navegador não suporta iframes.
+            </iframe>
+
+        </section>
+        <section id="redes-sociais">
+            <abbr title="Home"><a href="home.html" target="tela"><img src="img/imagens/logo-home.jpg" alt="Home"></a></abbr> <br>
+            <abbr title="Linkedin"><a href="linkedind.html" target="tela"><img src="img/imagens/logo-linkedin.png" alt="Linkedin"></a></abbr>  <br>
+            <abbr title="GitHub"><a href="github.html" target="tela"><img src="img/imagens/logo-github.jpg" alt="github"></a></abbr> <br>
+            <abbr title="Facebook"><a href="facebook.html" target="tela"><img src="img/imagens/logo-facebook.jpg" alt="Facebook"></a></abbr> <br>
+            <abbr title="Instagram"><a href="instagram.html" target="tela"><img src="img/imagens/logo-instagram.jpg" alt="Instagram"></a></abbr>
+        </section>
+    </main>
+
 </body>
 
 </html>
